@@ -14,7 +14,7 @@ def pub(prev=0):
     client1.on_publish = on_publish
     client1.connect(broker,port)
     value = prev + random.randint(0,9)
-    ret = client1.publish("power/line1", value)
+    ret = client1.publish("meter/line1", value)
     return value    
 
 from apscheduler.events import EVENT_JOB_ERROR, EVENT_JOB_EXECUTED
