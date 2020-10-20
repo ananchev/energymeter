@@ -15,7 +15,7 @@ def pub(prev=0):
     client1.connect(broker,port)
     value = prev + random.randint(0,9)
     ret = client1.publish("energymeter/line1", value)
-    return value    
+    return value   
 
 from apscheduler.events import EVENT_JOB_ERROR, EVENT_JOB_EXECUTED
 def listener(event):
@@ -28,12 +28,11 @@ def listener(event):
 
 
 from apscheduler.schedulers.blocking import BlockingScheduler
-from apscheduler.triggers.interval import IntervalTrigger
+from apscheduler.triggers.cron import CronTrigger
 
 scheduler = BlockingScheduler()
 scheduler.add_listener(listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
-print(listener)
-scheduler.add_job(pub, IntervalTrigger(seconds=3600))
+scheduler.add_job(pub, CronTrigger.from_crontab('0 * * * *'))
 try:
     scheduler.start()
 except (KeyboardInterrupt, SystemExit):
