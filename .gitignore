@@ -2,4 +2,4 @@ smtr/*
 .vscode/*
 .gitignore
 energy-meters.tar
-
+execution.log
