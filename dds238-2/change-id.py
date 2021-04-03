@@ -41,7 +41,7 @@ print ('New rate = {}'.format(new_rate))
 newcom = new_address*256 + new_rate
 print ('Command = {}'.format(newcom))
 
-
+# mac /dev/tty.usbserial-130
 instrument = minimalmodbus.Instrument('/dev/ttyUSB0',present_address) # port name, slave address
 instrument.serial.baudrate = present_rate
 instrument.serial.timeout = 0.5

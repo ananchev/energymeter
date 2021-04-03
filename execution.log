@@ -1,0 +1,76 @@
+2021-04-03 16:06:00 - main - connected to Modbus gateway
+2021-04-03 16:06:00 - main - energy/line2-total = 772.39kWh
+2021-04-03 16:06:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:06:00 - main - read data published
+2021-04-03 16:06:00 - main - Publish job was executed successfully.
+2021-04-03 16:06:00 - main - Next run is on 2021-04-03 16:07:00 CEST.
+2021-04-03 16:07:00 - main - connected to Modbus gateway
+2021-04-03 16:07:00 - main - energy/line2-total = 772.4kWh
+2021-04-03 16:07:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:07:00 - main - read data published
+2021-04-03 16:07:00 - main - Publish job was executed successfully.
+2021-04-03 16:07:00 - main - Next run is on 2021-04-03 16:08:00 CEST.
+2021-04-03 16:08:00 - main - connected to Modbus gateway
+2021-04-03 16:08:00 - main - energy/line2-total = 772.4kWh
+2021-04-03 16:08:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:08:00 - main - read data published
+2021-04-03 16:08:00 - main - Publish job was executed successfully.
+2021-04-03 16:08:00 - main - Next run is on 2021-04-03 16:09:00 CEST.
+2021-04-03 16:09:00 - main - connected to Modbus gateway
+2021-04-03 16:09:00 - main - energy/line2-total = 772.41kWh
+2021-04-03 16:09:03 - main - Publish job execution failed. Please check logfile for details.
+2021-04-03 16:09:03 - main - Next run is on 2021-04-03 16:10:00 CEST.
+2021-04-03 16:10:00 - main - connected to Modbus gateway
+2021-04-03 16:10:00 - main - energy/line2-total = 772.41kWh
+2021-04-03 16:10:03 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:10:03 - main - read data published
+2021-04-03 16:10:03 - main - Publish job was executed successfully.
+2021-04-03 16:10:03 - main - Next run is on 2021-04-03 16:11:00 CEST.
+2021-04-03 16:11:00 - main - connected to Modbus gateway
+2021-04-03 16:11:00 - main - energy/line2-total = 772.41kWh
+2021-04-03 16:11:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:11:00 - main - read data published
+2021-04-03 16:11:00 - main - Publish job was executed successfully.
+2021-04-03 16:11:00 - main - Next run is on 2021-04-03 16:12:00 CEST.
+2021-04-03 16:12:00 - main - connected to Modbus gateway
+2021-04-03 16:12:00 - main - energy/line2-total = 772.42kWh
+2021-04-03 16:12:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:12:00 - main - read data published
+2021-04-03 16:12:00 - main - Publish job was executed successfully.
+2021-04-03 16:12:00 - main - Next run is on 2021-04-03 16:13:00 CEST.
+2021-04-03 16:13:00 - main - connected to Modbus gateway
+2021-04-03 16:13:00 - main - energy/line2-total = 772.42kWh
+2021-04-03 16:13:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:13:00 - main - read data published
+2021-04-03 16:13:00 - main - Publish job was executed successfully.
+2021-04-03 16:13:00 - main - Next run is on 2021-04-03 16:14:00 CEST.
+2021-04-03 16:14:00 - main - connected to Modbus gateway
+2021-04-03 16:14:00 - main - energy/line2-total = 772.43kWh
+2021-04-03 16:14:00 - main - energy/line5-total = 187.26kWh
+2021-04-03 16:14:00 - main - read data published
+2021-04-03 16:14:00 - main - Publish job was executed successfully.
+2021-04-03 16:14:00 - main - Next run is on 2021-04-03 16:15:00 CEST.
+2021-04-03 16:22:00 - main - connected to Modbus gateway
+2021-04-03 16:22:00 - main - energy/line2-total = 772.46kWh
+2021-04-03 16:22:00 - main - energy/line5-total = 187.27kWh
+2021-04-03 16:22:00 - main - read data published
+2021-04-03 16:22:00 - main - Publish job was executed successfully.
+2021-04-03 16:22:00 - main - Next run is on 2021-04-03 16:23:00 CEST.
+2021-04-03 16:23:00 - main - connected to Modbus gateway
+2021-04-03 16:23:00 - main - energy/line2-total = 772.47kWh
+2021-04-03 16:23:00 - main - energy/line5-total = 187.27kWh
+2021-04-03 16:23:00 - main - read data published
+2021-04-03 16:23:00 - main - Publish job was executed successfully.
+2021-04-03 16:23:00 - main - Next run is on 2021-04-03 16:24:00 CEST.
+2021-04-03 16:24:00 - main - connected to Modbus gateway
+2021-04-03 16:24:00 - main - energy/line2-total = 772.47kWh
+2021-04-03 16:24:00 - main - energy/line5-total = 187.27kWh
+2021-04-03 16:24:00 - main - read data published
+2021-04-03 16:24:00 - main - Publish job was executed successfully.
+2021-04-03 16:24:00 - main - Next run is on 2021-04-03 16:25:00 CEST.
+2021-04-03 16:25:00 - main - connected to Modbus gateway
+2021-04-03 16:25:00 - main - energy/line2-total = 772.48kWh
+2021-04-03 16:25:00 - main - energy/line5-total = 187.27kWh
+2021-04-03 16:25:00 - main - read data published
+2021-04-03 16:25:00 - main - Publish job was executed successfully.
+2021-04-03 16:25:00 - main - Next run is on 2021-04-03 16:26:00 CEST.

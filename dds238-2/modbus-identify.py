@@ -32,6 +32,7 @@ speed = 9600
 # RUNTIME
 #========================================================
 
+# mac /dev/tty.usbserial-130
 instrument = minimalmodbus.Instrument('/dev/ttyUSB0',0) # port name, Broadcast slave address
 instrument.serial.baudrate = speed
 instrument.serial.timeout = 0.5
