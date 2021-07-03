@@ -1,5 +1,6 @@
-smtr/*
+read-env/*
+nrgmqtt-env/*
 .vscode/*
 .gitignore
 energy-meters.tar
-execution.log
+*.log

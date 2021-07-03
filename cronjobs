@@ -1,0 +1,1 @@
+0 * * * * python /app/read_publish.py >> /applog/cron.log 2>&1

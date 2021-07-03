@@ -2,6 +2,8 @@ from pymodbus.client.sync import ModbusTcpClient
 from pymodbus.payload import BinaryPayloadDecoder
 from pymodbus.constants import Endian
 
+from datetime import datetime, timezone
+
 client = ModbusTcpClient(host='192.168.2.222', port=502)
 connection = client.connect()
 
@@ -24,6 +26,7 @@ if connection:
                 "Baudrate": decoder.decode_8bit_uint() #1, 2, 3 or 4  means  respectively 9600, 4800, 2400 and 1200
                 }
     client.close()
-    print(decoded)
+    print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S %Z')} total is {decoded['Total kWh']}kWh")
+    #print(decoded)
 else:
     print('Connection lost, Try again')

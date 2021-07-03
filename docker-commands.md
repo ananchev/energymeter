@@ -22,6 +22,7 @@ docker run \
         --net=host \
         -v /etc/localtime:/etc/localtime:ro \
         -v /etc/timezone:/etc/timezone:ro \
+	-v /opt/energy-meters/applog:/applog \
         -d \
         --restart=always \
         energy-meters:latest
