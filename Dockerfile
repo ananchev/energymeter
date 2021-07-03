@@ -4,7 +4,7 @@ FROM python:3.9-alpine
 WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-COPY read_publish.py /app/
+COPY nrgmqtt.py /app/
 
 #create the folder to store read log
 RUN mkdir -p /applog
