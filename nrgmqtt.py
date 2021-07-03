@@ -78,9 +78,9 @@ class ReaderPublisher():
         logger.info(f"querying influxdb to get historical data for {offset_in_minutes} minutes ago")
         query = f"SELECT * FROM /{INFLUX_TOTAL_ENRGY_MEASUREMENTS}/ \
                   WHERE \
-                    time >= now()-{offset_in_minutes-1}m \
+                    time >= now()-{offset_in_minutes+1}m \
                   AND \
-                    time < now()={offset_in_minutes-1}m;"
+                    time < now()-{offset_in_minutes-1}m;"
 
         client = InfluxDBClient(**INLUX_DB)
         result = client.query(query)
