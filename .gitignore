@@ -1,5 +1,4 @@
-read-env/*
-nrgmqtt-env/*
+en/*
 .vscode/*
 .gitignore
 energy-meters.tar
