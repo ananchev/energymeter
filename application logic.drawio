@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T19:15:14.040Z" agent="5.0 (Macintosh)" etag="2EzqMtrqdOmn94paimdh" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T21:09:20.452Z" agent="5.0 (Macintosh)" etag="NoAJTnBWCN7ReQpAzpfo" version="14.5.3" type="github">
   <diagram id="zVyB01YKCpfNJ9keWLHa" name="Page-1">
-    <mxGraphModel dx="1351" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,36 +85,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-1" value="Start consumption calculation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="714" y="234" width="120" height="80" as="geometry" />
+          <mxGeometry x="1047" y="234" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-2" target="RZQT81cSgJ_5UXznJnwP-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-2" value="Calculate delta between current execution time and last execution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="714" y="354" width="120" height="60" as="geometry" />
+          <mxGeometry x="1047" y="354" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-9" target="RZQT81cSgJ_5UXznJnwP-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-9" value="Current execution time" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="567" y="24" width="100" height="60" as="geometry" />
+          <mxGeometry x="900" y="24" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-13" target="RZQT81cSgJ_5UXznJnwP-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-13" value="Cached data execution time" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="567" y="94" width="100" height="60" as="geometry" />
+          <mxGeometry x="900" y="94" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-16" target="RZQT81cSgJ_5UXznJnwP-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-16" value="Trigger period" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="567" y="164" width="100" height="60" as="geometry" />
+          <mxGeometry x="900" y="164" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-18" target="RZQT81cSgJ_5UXznJnwP-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RZQT81cSgJ_5UXznJnwP-27" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RZQT81cSgJ_5UXznJnwP-26">
+        <mxCell id="RZQT81cSgJ_5UXznJnwP-27" value="&amp;gt; = delta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RZQT81cSgJ_5UXznJnwP-26">
           <mxGeometry x="-0.3442" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -122,38 +122,38 @@
         <mxCell id="RZQT81cSgJ_5UXznJnwP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-18" target="RZQT81cSgJ_5UXznJnwP-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RZQT81cSgJ_5UXznJnwP-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RZQT81cSgJ_5UXznJnwP-29">
+        <mxCell id="RZQT81cSgJ_5UXznJnwP-30" value="&amp;lt; delta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RZQT81cSgJ_5UXznJnwP-29">
           <mxGeometry x="-0.2348" y="2" relative="1" as="geometry">
             <mxPoint y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RZQT81cSgJ_5UXznJnwP-18" value="Equals Trigger period" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="724" y="464" width="100" height="100" as="geometry" />
+        <mxCell id="RZQT81cSgJ_5UXznJnwP-18" value="Trigger period " style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="464" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-25" value="Return consumption for the period" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="714" y="615" width="120" height="80" as="geometry" />
+          <mxGeometry x="1047" y="615" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-28" target="RZQT81cSgJ_5UXznJnwP-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-28" value="# of periods missed: (delta divided by the trigger period)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="887" y="484" width="120" height="60" as="geometry" />
+          <mxGeometry x="1220" y="484" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-31" target="RZQT81cSgJ_5UXznJnwP-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1127" y="655" />
+              <mxPoint x="1460" y="655" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-31" value="Approx. for last period: reading divided by periods missed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1067" y="484" width="120" height="60" as="geometry" />
+          <mxGeometry x="1400" y="484" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RZQT81cSgJ_5UXznJnwP-32" target="RZQT81cSgJ_5UXznJnwP-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RZQT81cSgJ_5UXznJnwP-32" value="Current reading" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="567" y="244" width="100" height="60" as="geometry" />
+          <mxGeometry x="900" y="244" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
