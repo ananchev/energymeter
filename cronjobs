@@ -1,0 +1,3 @@
+0 * * * * curl http://localhost:5000/trigger\?period\=Hour >> /app/logs/cron.log 2>&1
+0 0 * * * curl http://localhost:5000/trigger\?period\=Day >> /app/logs/cron.log 2>&1
+0 0 1 * * curl http://localhost:5000/trigger\?period\=Month >> /app/logs/cron.log 2>&1
