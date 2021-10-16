@@ -1,5 +1,8 @@
-en/*
+env/*
+logs/*
 .vscode/*
 .gitignore
 energy-meters.tar
+readings_cache.json
 *.log
+*.pyc

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="/get_logs"><button class='button'>Get Logs</button></a>
+<a href=# id="read_now"><button class='button'>Read Now</button></a>
+
+{% endblock %}
+
+{% block logfile_display %}
+<div class="container">
+	<div class="columns is-centered is-mobile">	
+		<div class="column is-dark notification is-four-fifths">
+            <div class="is-size-7 has-text-warning" id="display">
+                <ul id="display_list">
+                  <li class="has-text-grey-light">Application log messages generated while the web console is open go here</li>
+                </ul>
+            </div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block javascript %}
+<script type="text/javascript">
+	var source = new EventSource("/log");
+	source.onmessage = function(event) {
+		// $('#display').prepend(event.data);
+		$('#display_list').prepend('<li>'+event.data+'</li>');
+		if(event.data == 100){
+        source.close()
+      }
+    }
+
+    $(function() {
+      $('a#read_now').on('click', function(e) {
+        e.preventDefault()
+        $.getJSON('/read_now',
+            function(data) {
+          //do nothing
+        });
+        return false;
+      });
+    });
+</script>
+{% endblock %}

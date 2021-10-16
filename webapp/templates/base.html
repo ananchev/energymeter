@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" class="uk-height-1-1">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>App Console</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
+</head>
+<body>
+<section class="section">
+<div class="container">
+	<div class="columns is-centered is-mobile">	
+		<div class="column is-muted notification is-four-fifths">
+      <div class="level">
+        <div class="level-left">
+          <p class="level-item subtitle is-3">Energy meter poller web console</p>
+        </div>
+      </div>
+    </div>
+	</div>
+</div>
+<div class="container">
+    <div class="columns is-centered is-mobile">	
+        <div class="column is-muted notification is-four-fifths">
+          {% block content %}
+          {% endblock %}
+        </div>
+        <div></div>
+    </div>
+</div>
+{% block logfile_display %}
+{% endblock %}
+</section>
+{% block javascript %}
+{% endblock %}
+</body>
+</html>
