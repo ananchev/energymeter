@@ -1,0 +1,38 @@
+{
+    "Manual": {
+        "readtime_epoch": 1634463536.981994,
+        "readtime_str": "2021-10-17T09:38:56Z",
+        "readings": [
+            {
+                "meter_id": 10,
+                "measurement_total": "line0Total",
+                "value_total": 1.21
+            },
+            {
+                "meter_id": 11,
+                "measurement_total": "line1Total",
+                "value_total": 0.89
+            },
+            {
+                "meter_id": 2,
+                "measurement_total": "line2Total",
+                "value_total": 1809.06
+            },
+            {
+                "meter_id": 3,
+                "measurement_total": "line3Total",
+                "value_total": 45.08
+            },
+            {
+                "meter_id": 4,
+                "measurement_total": "line4Total",
+                "value_total": 2.81
+            },
+            {
+                "meter_id": 5,
+                "measurement_total": "line5Total",
+                "value_total": 417.91
+            }
+        ]
+    }
+}

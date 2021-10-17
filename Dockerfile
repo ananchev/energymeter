@@ -19,8 +19,17 @@ COPY webapp/templates/index.html /app/webapp/templates/
 COPY libs/logger.py /app/libs/
 COPY libs/nrgreader.py /app/libs/
 
+# below is to make sure the single file mapping for readings_cache.json works
+# be sure upfront to copy readings_cache.json to the app directory on docker host
+COPY readings_cache.json /app/
+RUN touch /app/readings_cache.json
+
 # install curl
 RUN apk --no-cache add curl
+
+# install Supervisor
+RUN pip install supervisor==4.2.2
+
 
 # copy crontabs for root user
 COPY cronjobs /etc/crontabs/root
@@ -29,4 +38,4 @@ COPY cronjobs /etc/crontabs/root
 COPY supervisord.conf /etc/supervisord.conf
 
 # run
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
+CMD ["supervisord", "-c", "/etc/supervisord.conf"]
